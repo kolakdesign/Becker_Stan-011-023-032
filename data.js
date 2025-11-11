@@ -36,8 +36,8 @@ var APP_DATA = {
           "target": "1-hodnik"
         },
         {
-          "yaw": -0.9156228571448128,
-          "pitch": 0.094004157395851,
+          "yaw": -1.574265464935685,
+          "pitch": 0.08325191967881906,
           "rotation": 0,
           "target": "4-kupaonica-1"
         },
