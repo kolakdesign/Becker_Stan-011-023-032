@@ -1,69 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-ulaz",
-      "name": "Ulaz",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8325049384132903,
-          "pitch": 0.06200758126443162,
-          "rotation": 0,
-          "target": "1-hodnik"
-        },
-        {
-          "yaw": -1.574265464935685,
-          "pitch": 0.08325191967881906,
-          "rotation": 0,
-          "target": "4-kupaonica-1"
-        },
-        {
-          "yaw": 2.470021460515259,
-          "pitch": 0.08699231765471893,
-          "rotation": 0,
-          "target": "7-spavaa-soba"
-        },
-        {
-          "yaw": 1.3313538025154639,
-          "pitch": 0.09192257270234805,
-          "rotation": 0,
-          "target": "5-djeja-soba-1"
-        },
-        {
-          "yaw": 0.6816948707732138,
-          "pitch": 0.1314679481943397,
-          "rotation": 4.71238898038469,
-          "target": "8-kupaonica-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-hodnik",
+      "id": "0-hodnik",
       "name": "Hodnik",
       "levels": [
         {
@@ -92,41 +30,41 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.1099654090971516,
-          "pitch": 0.01395279823350215,
+          "yaw": -0.002571709372485742,
+          "pitch": 0.08210956085801513,
           "rotation": 0,
-          "target": "0-ulaz"
+          "target": "3-spavaa-soba"
         },
         {
-          "yaw": -2.94818001431951,
-          "pitch": 0.12414792430949895,
-          "rotation": 0.7853981633974483,
-          "target": "8-kupaonica-2"
-        },
-        {
-          "yaw": -2.664468184527246,
-          "pitch": 0.14731760942379601,
-          "rotation": 1.5707963267948966,
-          "target": "3-ostava"
-        },
-        {
-          "yaw": 0.18349524948006568,
-          "pitch": 0.10993095357733296,
+          "yaw": 0.6429625278394067,
+          "pitch": 0.12928441898033327,
           "rotation": 0,
-          "target": "2-dnevni-boravak-i-blagovaonica"
+          "target": "4-kupaonica"
         },
         {
-          "yaw": 2.6482904942181857,
-          "pitch": 0.10492296323833017,
-          "rotation": 4.71238898038469,
-          "target": "6-djeja-soba-2"
+          "yaw": 2.1515317815380266,
+          "pitch": 0.08601790622099159,
+          "rotation": 0,
+          "target": "5-ostava"
+        },
+        {
+          "yaw": -0.48879944453367763,
+          "pitch": 0.03999438228771979,
+          "rotation": 0,
+          "target": "1-dnevni-boravak"
+        },
+        {
+          "yaw": -0.556132604786967,
+          "pitch": 0.16582413747472557,
+          "rotation": 10.995574287564278,
+          "target": "2-kuhinja-i-blagovaonica"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-dnevni-boravak-i-blagovaonica",
-      "name": "Dnevni boravak i blagovaonica",
+      "id": "1-dnevni-boravak",
+      "name": "Dnevni boravak",
       "levels": [
         {
           "tileSize": 256,
@@ -154,93 +92,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.2622974959630033,
-          "pitch": 0.12809458799384643,
+          "yaw": 1.1455606632230602,
+          "pitch": 0.07493990150242169,
           "rotation": 0,
-          "target": "1-hodnik"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-ostava",
-      "name": "Ostava",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "0-hodnik"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.2906195438647483,
-          "pitch": 0.05759041706802215,
-          "rotation": 4.71238898038469,
-          "target": "1-hodnik"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-kupaonica-1",
-      "name": "Kupaonica 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.1086446121795692,
-          "pitch": 0.0008989106070949049,
+          "yaw": 1.8253349754349424,
+          "pitch": 0.12827720683248067,
           "rotation": 0,
-          "target": "0-ulaz"
+          "target": "2-kuhinja-i-blagovaonica"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-djeja-soba-1",
-      "name": "Dječja soba 1",
+      "id": "2-kuhinja-i-blagovaonica",
+      "name": "Kuhinja i blagovaonica",
       "levels": [
         {
           "tileSize": 256,
@@ -268,60 +136,28 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.8064887546946444,
-          "pitch": 0.08393800535626994,
+          "yaw": 2.5230877590262253,
+          "pitch": 0.20732740908051994,
           "rotation": 0,
-          "target": "0-ulaz"
+          "target": "1-dnevni-boravak"
+        },
+        {
+          "yaw": -2.5201265134490587,
+          "pitch": 0.20474312727872146,
+          "rotation": 0,
+          "target": "0-hodnik"
+        },
+        {
+          "yaw": -2.777452453251403,
+          "pitch": 0.1531877793273182,
+          "rotation": 0,
+          "target": "3-spavaa-soba"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-djeja-soba-2",
-      "name": "Dječja soba 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.7145195701417926,
-          "pitch": 0.17988037371531718,
-          "rotation": 1.5707963267948966,
-          "target": "1-hodnik"
-        },
-        {
-          "yaw": -2.9354884715752387,
-          "pitch": 0.1643305758568463,
-          "rotation": 4.71238898038469,
-          "target": "0-ulaz"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-spavaa-soba",
+      "id": "3-spavaa-soba",
       "name": "Spavaća soba",
       "levels": [
         {
@@ -350,17 +186,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.7664389094590955,
-          "pitch": 0.08716927657784623,
+          "yaw": 2.066784634390821,
+          "pitch": 0.1166590852314382,
           "rotation": 0,
-          "target": "0-ulaz"
+          "target": "0-hodnik"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-kupaonica-2",
-      "name": "Kupaonica 2",
+      "id": "4-kupaonica",
+      "name": "Kupaonica",
       "levels": [
         {
           "tileSize": 256,
@@ -388,22 +224,54 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6776858325714006,
-          "pitch": 0.0995146084918801,
-          "rotation": 10.995574287564278,
-          "target": "1-hodnik"
+          "yaw": 1.2992732975267849,
+          "pitch": 0.06030639864406062,
+          "rotation": 0,
+          "target": "0-hodnik"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-ostava",
+      "name": "Ostava",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 2.978076804248431,
-          "pitch": 0.09203324529677737,
-          "rotation": 7.853981633974483,
-          "target": "0-ulaz"
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.902108520043722,
+          "pitch": 0.16148953957226375,
+          "rotation": 0,
+          "target": "0-hodnik"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Stan 011, 023, 032",
+  "name": "Stan 004, 005, 007, 010, 015, 017, 019, 022, 027, 029",
   "settings": {
     "mouseViewMode": "qtvr",
     "deviceOrientationEnabled": true,
